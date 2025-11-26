@@ -3,7 +3,6 @@ import io
 from flask import send_file
 import pandas as pd
 from lxml import etree
-from utils.crypto import generate_cadena_original, generate_sello
 
 def validate_xml(xml_path, xsd_path):    
     try:
