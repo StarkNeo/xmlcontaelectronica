@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="{{ url_for('static', filename='validator.css') }}">
+  <title>Validador XML SAT</title>
+</head>
+<body>  
+  <h1>Validador de XML</h1> 
+  <nav>
+        <ul>
+            <li><a href="{{url_for('index')}}">Principal</a></li>
+            <li><a href="{{url_for('xmlGenerator')}}">Generar XML</a></li>
+        </ul>
+    </nav>
+  
+  <form method="POST" enctype="multipart/form-data">
+    {{ form.hidden_tag() }}
+    <p>{{ form.xml_file.label }} {{ form.xml_file() }}</p>
+    <p>{{ form.submit() }}</p>
+  </form>
+
+  {% if result %}
+    <h3>Resultado:</h3>
+    <div id="result">{{ result }}</div>
+  {% endif %}
+
+   <footer>
+             <p style="text-align:center; font-size:0.9em; color:#888;">
+                Desarrollado por Jesus Hernandez | Consultor BI e IA | jesushernandezcp@gmail.com
+            </p>
+        </footer>
+</body>
+</html>

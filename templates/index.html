@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <title>Home</title>
+
+</head>
+
+<body>
+    <h1>XMLs Contabilidad Electrónica</h1>
+        <nav>
+            <ul>
+                <li><a href="{{url_for('xmlValidator')}}">Validar XML</a></li>
+                <li><a href="{{url_for('xmlGenerator')}}">Generar XML</a></li>
+            </ul>
+        </nav>
+        <footer>
+            <p style="text-align:center; font-size:0.9em; color:#888;">
+                Desarrollado por Jesus Hernandez | Consultor BI e IA | jesushernandezcp@gmail.com
+            </p>
+        </footer>
+
+</body>
+
+</html>

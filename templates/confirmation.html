@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Confirmation / Confirmación</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+  
+  <div class="confirmation-container">
+    <div class="confirmation-actions">
+      <a href="{{url_for('index')}}">Principal</a>
+      <a href="{{url_for('xmlValidator')}}">Validar XML</a>
+      <a href="{{url_for('xmlGenerator')}}">Generar XML</a>
+    </div>
+    <h2>XML generado exitosamente</h2>
+    
+    <p>Tu archivo está listo:</p>
+    <a href="{{ url_for('download_xml', filename=filename) }}">Descargar {{filename}}</a>
+
+
+
+
+
+    
+  </div>
+
+  
+</body>
+
+</html>

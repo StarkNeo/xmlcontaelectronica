@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="{{ url_for('static', filename='generator.css') }}">
+  <title>Generador XML SAT</title>
+</head>
+
+<body>
+<h1>Generador de XML</h2> 
+  <nav>
+    <ul>
+      <li><a href="{{url_for('index')}}">Principal</a></li>
+      <li><a href="{{url_for('xmlValidator')}}">Validar XML</a></li>
+    </ul>
+  </nav>
+  <form id="generator_form" method="POST" enctype="multipart/form-data">
+    {{ form.hidden_tag() }}
+    <p>{{form.rfc.label}}<br>{{form.rfc()}}</p>
+    <p>{{form.month.label}}<br>{{form.month()}}</p>
+    <p>{{form.year.label}}<br>{{form.year()}}</p>
+    <p>{{ form.doc_type.label }}<br>{{ form.doc_type() }}</p>
+    <p id="instance"></p>
+    
+    <p>{{ form.excel_file.label }}<br>{{ form.excel_file() }}</p>
+    
+    <div id="certificado">
+      
+    
+    </div>
+    <p>{{ form.submit() }}</p>
+
+  </form>
+
+   <footer>
+             <p style="text-align:center; font-size:0.9em; color:#888;">
+                Desarrollado por Jesus Hernandez | Consultor BI e IA | jesushernandezcp@gmail.com
+            </p>
+        </footer>
+  <script>
+    let isSigned = document.getElementById("sign");
+    let docType = document.getElementById("doc_type");
+    
+    
+
+    isSigned.addEventListener("change", (e) => {
+      let formArea = document.getElementById('certificado');
+      
+         
+      if (e.target.value === "si") {
+        formArea.innerHTML = `
+        <p>{{ form.cer_file.label }}<br>{{ form.cer_file() }}</p>
+        <p>{{ form.key_file.label }}<br>{{ form.key_file() }}</p>
+        <p>{{ form.password.label }}<br>{{ form.password() }}</p>        
+        `
+      }
+      else if(e.target.value === 'no'){
+        formArea.innerHTML=''
+      }
+
+    })
+
+    docType.addEventListener("change",(e)=>{
+      let instanceArea = document.getElementById("instance");
+      
+
+      if(e.target.value === "balanza"){
+        instanceArea.innerHTML = `
+        {{form.instance_type.label}}<br>{{form.instance_type()}}<br>
+        {{form.mod_date.label}}<br>{{form.mod_date()}}
+        `
+      }
+      else if(e.target.value === "catalogo"){
+        instanceArea.innerHTML= ' '
+      }
+
+    })
+
+
+   
+
+
+  </script>
+</body>
+
+</html>
