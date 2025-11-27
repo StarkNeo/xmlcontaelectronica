@@ -38,6 +38,7 @@ def xmlValidator():
         xml = form.xml_file.data
         xml_path = os.path.join(app.config["XML_FOLDER"], secure_filename(xml.filename))
         #xsd_path = os.path.join(app.root_path, "xsd", "BalanzaComprobacion_1_3.xsd")
+        xml.save(xml_path)
         xsd_path = os.path.join(app.config["XSD_FOLDER"], "BalanzaComprobacion_1_3.xsd")
         message = validate_xml(xml_path, xsd_path)
         result = message
