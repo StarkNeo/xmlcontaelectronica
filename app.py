@@ -113,9 +113,10 @@ def download_xml(filename):
     file_path = os.path.join(app.config["XML_FOLDER"], filename)
     return send_file(file_path, mimetype="application/xml", as_attachment=True)
 
-
+"""
 if __name__ == "__main__":
     os.makedirs(os.path.join(BASE_PATH, "uploads"), exist_ok=True)
     os.makedirs(os.path.join(BASE_PATH, "xml"), exist_ok=True)
     os.makedirs(os.path.join(BASE_PATH, "xsd"), exist_ok=True)
     app.run(debug=True)
+"""
