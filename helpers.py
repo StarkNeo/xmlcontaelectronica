@@ -4,9 +4,10 @@ from flask import send_file
 import pandas as pd
 from lxml import etree
 
-def validate_xml(xml_path, xsd_path):    
+def validate_xml(xml_path, xsd_path):
     try:
         # Load the XSD schema
+        print("Este XSD estoy usando: ", xsd_path)
         with open(xsd_path, 'rb') as xsd_file:
             #schema_root = etree.XML(xsd_file.read())
             #schema = etree.XMLSchema(schema_root)
