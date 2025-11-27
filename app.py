@@ -37,7 +37,8 @@ def xmlValidator():
     if form.validate_on_submit():
         xml = form.xml_file.data
         xml_path = os.path.join(app.config["XML_FOLDER"], secure_filename(xml.filename))
-        xsd_path = os.path.join(app.root_path, "xsd", "BalanzaComprobacion_1_3.xsd")
+        #xsd_path = os.path.join(app.root_path, "xsd", "BalanzaComprobacion_1_3.xsd")
+        xsd_path = os.path.join(app.config["XSD_FOLDER"], "BalanzaComprobacion_1_3.xsd")
         message = validate_xml(xml_path, xsd_path)
         result = message
 
@@ -69,9 +70,10 @@ def xmlGenerator():
             # Extract data from excel
             catalogo = extract_excel_catalogo(excel_path)
             # Transform data to xml file and save it to XML folder
-            xml_cat_path = f"xml/{RFC}{year}{month}CT.xml"
+            filename = f"xml/{RFC}{year}{month}CT.xml"
+            xml_cat_path = os.path.join(app.config["XML_FOLDER"],filename)
             generate_catalogo_xml(catalogo, xml_cat_path, RFC, month, year)
-            return render_template("confirmation.html", filename = xml_cat_path.split("/")[1])
+            return render_template("confirmation.html", filename = filename)
         
             # if file type is balanza
         elif file_type == "balanza":
@@ -79,27 +81,24 @@ def xmlGenerator():
             balanza = extract_excel_balanza(excel_path)
             instance = form.instance_type.data
             if instance == "N":
-                xml_bal_path = f"xml/{RFC}{year}{month}BN.xml"
+                filename = f"xml/{RFC}{year}{month}BN.xml"
+                xml_bal_path = os.path.join(app.config["XML_FOLDER"],filename)
                 generate_balanza_xml(
                     balanza, xml_bal_path, RFC, month, year, instance
                 )                
             else:
-                xml_bal_path = f"xml/{RFC}{year}{month}BC.xml"
+                filename = f"xml/{RFC}{year}{month}BC.xml"
+                xml_bal_path = os.path.join(app.config["XML_FOLDER"],filename)
                 mod_date = str(form.mod_date.data)
                 generate_balanza_xml(
                     balanza, xml_bal_path, RFC, month, year, instance, mod_date
                 )
 
-        message = f"XML generado existosamente"
-        return render_template("confirmation.html", filename = xml_bal_path.split("/")[1])
+        message = f"XML generado exitosamente"
+        return render_template("confirmation.html", filename = filename)
         
     return render_template("generator.html", form=form, message=message)
 
-
-app.route("/confirmation", methods=['GET','POST'])
-def confirmation():
-    print(request.args.get("ruta"))
-    return render_template("confirmation.html")
 
 @app.route("/download_xml/<filename>")
 def download_xml(filename):
