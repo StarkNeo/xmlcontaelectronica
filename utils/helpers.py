@@ -89,7 +89,7 @@ metadata_balanza = {
 
 # Function to generate XML file for catalogo de cuentas
 
-def generate_catalogo_xml(datos_catalogo, ruta_salida, rfc, month, year, certificado_b64 = "", numero_serie = "", private_key = "", metadata = metadata_catalogo):
+def generate_catalogo_xml(datos_catalogo, ruta_salida, rfc, month, year, metadata = metadata_catalogo):
     ns = metadata["xmlns:catalogocuentas"]
     nsmap = {
         "catalogocuentas": ns,
@@ -106,20 +106,7 @@ def generate_catalogo_xml(datos_catalogo, ruta_salida, rfc, month, year, certifi
         "Anio": metadata["Anio"]
     }
     
-    
-    if certificado_b64:
-        cadena_catalogo = generate_cadena_original("catalogo", metadata, datos_catalogo)
-        sello = generate_sello(cadena_catalogo, private_key)
-        metadata["Sello"] = sello
-        metadata["Certificado"]= certificado_b64
-        metadata["noCertificado"] = numero_serie
-        
-        root_attrs.update({
-            "Sello":sello,
-            "certificado":certificado_b64,
-            "noCertificado":numero_serie
-        })
-    
+            
     root = etree.Element("{%s}Catalogo" % ns, nsmap=nsmap, **root_attrs)
     
     # Add xsi:schemaLocation
@@ -173,16 +160,6 @@ def generate_balanza_xml(datos_balanza, ruta_salida, rfc, month, year, instance,
         metadata["FechaModBal"] = mod_date
         root_attrs["FechaModBal"] = mod_date
     
-        
-    if certificado_b64 != None:
-        cadena_balanza = generate_cadena_original("balanza",root_attrs, datos_balanza)
-        sello = generate_sello(cadena_balanza, private_key)
-        
-        root_attrs["Sello"] = sello
-        root_attrs["certificado"] = certificado_b64
-        root_attrs["noCertificado"] = numero_serie
-    
-        
     root = etree.Element("{%s}Balanza" % ns, nsmap=nsmap, **root_attrs)            
         
     
