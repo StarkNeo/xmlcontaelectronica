@@ -49,9 +49,10 @@ def xmlValidator():
         file_type = xml.filename.split(".")[0][-1]
         if file_type == "T":
             xsd_path = os.path.join(app.config["XSD_FOLDER"],secure_filename("CatalogoCuentas_1_3.xsd"))
+            message = validate_xml(xml_path, xsd_path)
         else:
             xsd_path = os.path.join(app.config["XSD_FOLDER"], secure_filename("BalanzaComprobacion_1_3.xsd"))
-        message = validate_xml(xml_path, xsd_path)
+            message = validate_xml(xml_path, xsd_path)
         result = message
 
     return render_template("validator.html", form=form, result=result)
