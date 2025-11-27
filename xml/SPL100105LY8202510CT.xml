@@ -1,0 +1,1000 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalogocuentas:Catalogo xmlns:catalogocuentas="http://www.sat.gob.mx/esquemas/ContabilidadE/1_3/CatalogoCuentas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.3" RFC="SPL100105LY8" Mes="10" Anio="2025" xsi:schemaLocation="http://www.sat.gob.mx/esquemas/ContabilidadE/1_3/CatalogoCuentas http://www.sat.gob.mx/esquemas/ContabilidadE/1_3/CatalogoCuentas/CatalogoCuentas_1_3.xsd">
+  <catalogocuentas:Ctas CodAgrup="101" NumCta="1010000" Desc="Caja y efectivo" Nivel="1" Natur="D"/>
+  <catalogocuentas:Ctas CodAgrup="101.01" NumCta="1010100" Desc="Caja y efectivo" Nivel="1" Natur="D"/>
+  <catalogocuentas:Ctas CodAgrup="102" NumCta="1020000" Desc="Bancos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="102" NumCta="1021000" Desc="Bancos nacionales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="102.01" NumCta="1021001" Desc="Bancos Nacionales MN" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="102.01" NumCta="1021002" Desc="Bancos Nacionales USD" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="102.01" NumCta="1021003" Desc="Bancos MN [Clearing]" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="102.01" NumCta="1021004" Desc="Bancos USD [Clearing]" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="102.01" NumCta="1021005" Desc="Bancos Nacionales EUR" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="102.01" NumCta="1021006" Desc="Bancos Nacionales JPY" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="102.01" NumCta="1021010" Desc="Bancos Nacionales EUR [Clearing]" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="102.01" NumCta="1021011" Desc="Bancos Nacionales JPY [Clearing]" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="102.02" NumCta="1022000" Desc="Bancos extranjeros" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="102.02" NumCta="1022001" Desc="Bancos Extranjeros MN" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="102.02" NumCta="1022002" Desc="Bancos Extranjeros USD" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="102.02" NumCta="1022003" Desc="Bancos Extranjeros EUR" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="102.02" NumCta="1022004" Desc="Bancos Extranjeros YENES" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="102.02" NumCta="1022010" Desc="Bancos Extranjeros MN [Clearing]" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="102.02" NumCta="1022011" Desc="Bancos Extranjeros USD [Clearing]" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="102.02" NumCta="1022012" Desc="Bancos Extranjeros EUR [Clearing]" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="102.02" NumCta="1022013" Desc="Bancos Extranjeros YENES [Clearing]" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="103" NumCta="1030000" Desc="Inversiones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="103.01" NumCta="1030100" Desc="Inversiones temporales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="104" NumCta="1040000" Desc="Otros instrumentos financieros" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="104.01" NumCta="1040100" Desc="Otros instrumentos financieros" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="105" NumCta="1050000" Desc="Clientes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="105.01" NumCta="1050100" Desc="Clientes nacionales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="105.02" NumCta="1050200" Desc="Clientes extranjeros" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="105.03" NumCta="1050300" Desc="Clientes nacionales parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="105.04" NumCta="1050400" Desc="Clientes extranjeros parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="106" NumCta="1060000" Desc="Cuentas y documentos por cobrar a corto plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="106.01" NumCta="1060100" Desc="Cuentas y documentos por cobrar a corto plazo nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="106.02" NumCta="1060200" Desc="Cuentas y documentos por cobrar a corto plazo extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="106.03" NumCta="1060300" Desc="Cuentas y documentos por cobrar a corto plazo nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="106.04" NumCta="1060400" Desc="Cuentas y documentos por cobrar a corto plazo extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="106.05" NumCta="1060500" Desc="Intereses por cobrar a corto plazo nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="106.06" NumCta="1060600" Desc="Intereses por cobrar a corto plazo extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="106.07" NumCta="1060700" Desc="Intereses por cobrar a corto plazo nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="106.08" NumCta="1060800" Desc="Intereses por cobrar a corto plazo extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="106.09" NumCta="1060900" Desc="Otras cuentas y documentos por cobrar a corto plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="106.10" NumCta="1061000" Desc="Otras cuentas y documentos por cobrar a corto plazo parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="106.10" NumCta="1061100" Desc="Provisiones de cuentas y documentos por cobrar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="107" NumCta="1070000" Desc="Deudores diversos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="107" NumCta="1070100" Desc="Funcionarios y empleados" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="107.01" NumCta="1070101" Desc="Gastos por comprobar empleados" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="107.01" NumCta="1070102" Desc="Finiquitos del Fondo de Ahorro" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="107.01" NumCta="1070103" Desc="Anticipos de Sueldos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="107.02" NumCta="1070200" Desc="Socios y accionistas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="107.03" NumCta="1070300" Desc="Partes relacionadas nacionales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="107.04" NumCta="1070400" Desc="Partes relacionadas extranjeros" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="107.05" NumCta="1070500" Desc="Otros deudores diversos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="108" NumCta="1080000" Desc="Estimación de cuentas incobrables" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="108.01" NumCta="1080100" Desc="Estimación de cuentas incobrables nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="108.02" NumCta="1080200" Desc="Estimación de cuentas incobrables extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="108.03" NumCta="1080300" Desc="Estimación de cuentas incobrables nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="108.04" NumCta="1080400" Desc="Estimación de cuentas incobrables extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109" NumCta="1090000" Desc="Pagos anticipados" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109.01" NumCta="1090100" Desc="Seguros y fianzas pagados por anticipado nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109.02" NumCta="1090200" Desc="Seguros y fianzas pagados por anticipado extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109.03" NumCta="1090300" Desc="Seguros y fianzas pagados por anticipado nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109.04" NumCta="1090400" Desc="Seguros y fianzas pagados por anticipado extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109.05" NumCta="1090500" Desc="Rentas pagados por anticipado nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109.06" NumCta="1090600" Desc="Rentas pagados por anticipado extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109.07" NumCta="1090700" Desc="Rentas pagados por anticipado nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109.08" NumCta="1090800" Desc="Rentas pagados por anticipado extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109.09" NumCta="1090900" Desc="Intereses pagados por anticipado nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109.10" NumCta="1091000" Desc="Intereses pagados por anticipado extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109.11" NumCta="1091100" Desc="Intereses pagados por anticipado nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109.12" NumCta="1091200" Desc="Intereses pagados por anticipado extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109.13" NumCta="1091300" Desc="Factoraje financiero pagados por anticipado nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109.14" NumCta="1091400" Desc="Factoraje financiero pagados por anticipado extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109.15" NumCta="1091500" Desc="Factoraje financiero pagados por anticipado nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109.16" NumCta="1091600" Desc="Factoraje financiero pagados por anticipado extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109.17" NumCta="1091700" Desc="Arrendamiento financiero pagados por anticipado nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109.18" NumCta="1091800" Desc="Arrendamiento financiero pagados por anticipado extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109.19" NumCta="1091900" Desc="Arrendamiento financiero pagados por anticipado nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109.20" NumCta="1092000" Desc="Arrendamiento financiero pagados por anticipado extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109.21" NumCta="1092100" Desc="Pérdida por deterioro de pagos anticipados" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="109.23" NumCta="1092300" Desc="Otros pagos anticipados" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="110" NumCta="1100000" Desc="Subsidio al empleo por aplicar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="110.01" NumCta="1100100" Desc="Subsidio al empleo por aplicar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="112" NumCta="1120000" Desc="Otros estímulos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="112.01" NumCta="1120100" Desc="Otros estímulos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="113" NumCta="1130000" Desc="Impuestos a favor" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="113.01" NumCta="1130100" Desc="IVA a favor" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="113.02" NumCta="1130200" Desc="ISR a favor" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="113.03" NumCta="1130300" Desc="IETU a favor" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="113.06" NumCta="1130600" Desc="Subsidio al empleo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="113.07" NumCta="1130700" Desc="Pago de lo indebido" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="113.07" NumCta="1130701" Desc="Pago de lo indebido IVA" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="113.07" NumCta="1130702" Desc="Pago de lo indebido ISR" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="113.07" NumCta="1130703" Desc="Pago de lo indebido Retencion ISR" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="113" NumCta="1130800" Desc="Otros impuestos a favor" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="114" NumCta="1140000" Desc="Pagos provisionales de Impuestos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="114" NumCta="1140100" Desc="Pagos provisionales de ISR" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="114.01" NumCta="1140101" Desc="Pagos provisionales de ISR" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="114.01" NumCta="1140102" Desc="ISR Retenido por bancos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="100" NumCta="1150000" Desc="Inventario" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="115.01" NumCta="1150100" Desc="Inventario" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="115.02" NumCta="1150200" Desc="Materia prima y materiales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="115.03" NumCta="1150300" Desc="Producción en proceso" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="115.04" NumCta="1150400" Desc="Productos terminados" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="115.05" NumCta="1150500" Desc="Mercancías en tránsito" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="115.06" NumCta="1150600" Desc="Mercancías en poder de terceros" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="115.07" NumCta="1150700" Desc="Otros" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="116" NumCta="1160000" Desc="Estimación de inventarios obsoletos y de lento movimiento" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="116.01" NumCta="1160100" Desc="Estimación de inventarios obsoletos y de lento movimiento" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="117" NumCta="1170000" Desc="Obras en proceso de inmuebles" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="117.01" NumCta="1170100" Desc="Obras en proceso de inmuebles" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="118" NumCta="1180000" Desc="Impuestos acreditables pagados" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="118" NumCta="1180100" Desc="IVA acreditable pagado" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="118.01" NumCta="1180101" Desc="IVA acreditable pagado" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="118.01" NumCta="1180102" Desc="IVA Retenido por clientes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="118.01" NumCta="1180103" Desc="IVA acreditable pagado 8%" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="118.02" NumCta="1180200" Desc="IVA acreditable de importación pagado" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="118.02" NumCta="1180201" Desc="IVA acreditable de prevalidación pagado" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="119" NumCta="1190000" Desc="Impuestos acreditables por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="119" NumCta="1190100" Desc="IVA pendiente de pago" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="119.01" NumCta="1190101" Desc="IVA pendiente de pago" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="119.01" NumCta="1190102" Desc="IVA Retenido por clientes pendiente" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="119.01" NumCta="1190103" Desc="IVA pendiente de pago 8%" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="119.02" NumCta="1190200" Desc="IVA de importación pendiente de pago" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="119.02" NumCta="1190201" Desc="IVA de prevalidación pendiente de pago" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="120" NumCta="1200000" Desc="Anticipo a proveedores" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="120.01" NumCta="1200100" Desc="Anticipo a proveedores nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="120.02" NumCta="1200200" Desc="Anticipo a proveedores extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="120.03" NumCta="1200300" Desc="Anticipo a proveedores nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="120.04" NumCta="1200400" Desc="Anticipo a proveedores extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="121" NumCta="1210000" Desc="Otros activos a corto plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="121.01" NumCta="1210100" Desc="Otros activos a corto plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="151" NumCta="1510000" Desc="Terrenos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="151.01" NumCta="1510100" Desc="Terrenos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="152" NumCta="1520000" Desc="Edificios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="152.01" NumCta="1520100" Desc="Edificios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="153" NumCta="1530000" Desc="Maquinaria y equipo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="153.01" NumCta="1530100" Desc="Maquinaria y equipo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="154" NumCta="1540000" Desc="Vehículos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="154.01" NumCta="1540100" Desc="Vehículos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="154.01" NumCta="1540200" Desc="Vehículos excedente de limite deducible" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="155" NumCta="1550000" Desc="Mobiliario y equipo de oficina" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="155.01" NumCta="1550100" Desc="Mobiliario y equipo de oficina" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="156" NumCta="1560000" Desc="Equipo de cómputo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="156.01" NumCta="1560100" Desc="Equipo de cómputo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="157" NumCta="1570000" Desc="Equipo de comunicación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="157.01" NumCta="1570100" Desc="Equipo de comunicación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="100" NumCta="1580000" Desc="Derechos de Uso de Activos Arrendados" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="152.01" NumCta="1580100" Desc="Edificios (D5)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="153.01" NumCta="1580200" Desc="Maquinaria y equipo (D5)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="154.01" NumCta="1580300" Desc="Automóviles, autobuses, camiones de carga, tractocamiones, montacargas y remolques (D5)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="155.01" NumCta="1580400" Desc="Mobiliario y equipo de oficina (D5)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="156.01" NumCta="1580500" Desc="Equipo de cómputo (D5)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="157.01" NumCta="1580600" Desc="Equipo de comunicación (D5)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="159" NumCta="1590000" Desc="Obras en proceso de activos fijos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="159.01" NumCta="1590100" Desc="Obras en proceso de activos fijos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="160" NumCta="1600000" Desc="Otros activos fijos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="160.01" NumCta="1600100" Desc="Otros activos fijos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="164" NumCta="1640000" Desc="Troqueles, moldes, matrices y herramental" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="164.01" NumCta="1640100" Desc="Troqueles, moldes, matrices y herramental" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="167" NumCta="1670000" Desc="Equipo de adaptaciones para personas con capacidades diferentes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="167.01" NumCta="1670100" Desc="Equipo de adaptaciones para personas con capacidades diferentes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="169" NumCta="1690000" Desc="Otra maquinaria y equipo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="169.01" NumCta="1690100" Desc="Otra maquinaria y equipo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="169.01" NumCta="1690200" Desc="Cuenta puente de activos fijos (clearing)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="170" NumCta="1700000" Desc="Adaptaciones y mejoras" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="170.01" NumCta="1700100" Desc="Adaptaciones y mejoras" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="171" NumCta="1710000" Desc="Depreciación acumulada de activos fijos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="171.01" NumCta="1710100" Desc="Depreciación acumulada de edificios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="171.02" NumCta="1710200" Desc="Depreciación acumulada de maquinaria y equipo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="171.03" NumCta="1710300" Desc="Depreciación acumulada de automóviles, autobuses, camiones de carga, tractocamiones, montacargas y remolques" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="171.04" NumCta="1710400" Desc="Depreciación acumulada de mobiliario y equipo de oficina" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="171.05" NumCta="1710500" Desc="Depreciación acumulada de equipo de cómputo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="171.06" NumCta="1710600" Desc="Depreciación acumulada de equipo de comunicación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="171.08" NumCta="1710800" Desc="Depreciación acumulada de otros activos fijos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="171.12" NumCta="1711200" Desc="Depreciación acumulada de troqueles, moldes, matrices y herramental" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="171.13" NumCta="1711300" Desc="Depreciación acumulada de equipo de comunicaciones telefónicas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="171.15" NumCta="1711500" Desc="Depreciación acumulada de equipo de adaptaciones para personas con capacidades diferentes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="171.16" NumCta="1711600" Desc="Depreciación acumulada de maquinaria y equipo de generación de energía de fuentes renovables o de sistemas de cogeneración de electricidad eficiente" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="171.17" NumCta="1711700" Desc="Depreciación acumulada de adaptaciones y mejoras" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="171.18" NumCta="1711800" Desc="Depreciación acumulada de otra maquinaria y equipo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="171" NumCta="1714000" Desc="Depreciación acumulada de Derechos de uso de Activos Arrendados" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="171.01" NumCta="1714100" Desc="Depreciación acumulada de Edificios (D5)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="171.02" NumCta="1714200" Desc="Depreciacion acumulada de Maquinaria y equipo (D5)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="171.03" NumCta="1714300" Desc="Depreciacion acumulada de Automóviles, autobuses, camiones de carga, tractocamiones, montacargas y remolques (D5)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="171.04" NumCta="1714400" Desc="Depreciacion acumulada de Mobiliario y equipo de oficina (D5)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="171.05" NumCta="1714500" Desc="Depreciacion acumulada de Equipo de cómputo (D5)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="171.06" NumCta="1714600" Desc="Depreciacion acumulada de Equipo de comunicación (D5)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="172" NumCta="1720000" Desc="Pérdida por deterioro acumulado de activos fijos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="172.01" NumCta="1720100" Desc="Pérdida por deterioro acumulado de edificios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="172.02" NumCta="1720200" Desc="Pérdida por deterioro acumulado de maquinaria y equipo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="172.03" NumCta="1720300" Desc="Pérdida por deterioro acumulado de automóviles, autobuses, camiones de carga, tractocamiones, montacargas y remolques" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="172.04" NumCta="1720400" Desc="Pérdida por deterioro acumulado de mobiliario y equipo de oficina" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="172.05" NumCta="1720500" Desc="Pérdida por deterioro acumulado de equipo de cómputo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="172.06" NumCta="1720600" Desc="Pérdida por deterioro acumulado de equipo de comunicación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="172.08" NumCta="1720800" Desc="Pérdida por deterioro acumulado de otros activos fijos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="172.12" NumCta="1721200" Desc="Pérdida por deterioro acumulado de troqueles, moldes, matrices y herramental" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="172.15" NumCta="1721500" Desc="Pérdida por deterioro acumulado de equipo de adaptaciones para personas con capacidades diferentes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="172.16" NumCta="1721600" Desc="Pérdida por deterioro acumulado de maquinaria y equipo de generación de energía de fuentes renovables o de sistemas de cogeneración de electricidad eficiente" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="172.17" NumCta="1721700" Desc="Pérdida por deterioro acumulado de adaptaciones y mejoras" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="172.18" NumCta="1721800" Desc="Pérdida por deterioro acumulado de otra maquinaria y equipo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="173" NumCta="1730000" Desc="Gastos diferidos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="173.01" NumCta="1730100" Desc="Gastos diferidos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="174" NumCta="1740000" Desc="Gastos pre operativos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="174.01" NumCta="1740100" Desc="Gastos pre operativos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="175" NumCta="1750000" Desc="Regalías, asistencia técnica y otros gastos diferidos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="175.01" NumCta="1750100" Desc="Regalías, asistencia técnica y otros gastos diferidos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="176" NumCta="1760000" Desc="Activos intangibles" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="176.01" NumCta="1760100" Desc="Activos intangibles" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="177" NumCta="1770000" Desc="Gastos de organización" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="177.01" NumCta="1770100" Desc="Gastos de organización" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="178" NumCta="1780000" Desc="Investigación y desarrollo de mercado" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="178.01" NumCta="1780100" Desc="Investigación y desarrollo de mercado" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="179" NumCta="1790000" Desc="Marcas y patentes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="179.01" NumCta="1790100" Desc="Marcas y patentes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="180" NumCta="1800000" Desc="Crédito mercantil" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="180.01" NumCta="1800100" Desc="Crédito mercantil" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="181" NumCta="1810000" Desc="Gastos de instalación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="181.01" NumCta="1810100" Desc="Gastos de instalación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="182" NumCta="1820000" Desc="Otros activos diferidos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="182.01" NumCta="1820100" Desc="Otros activos diferidos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="183" NumCta="1830000" Desc="Amortización acumulada de activos diferidos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="183.01" NumCta="1830100" Desc="Amortización acumulada de gastos diferidos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="183.02" NumCta="1830200" Desc="Amortización acumulada de gastos pre operativos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="183.03" NumCta="1830300" Desc="Amortización acumulada de regalías, asistencia técnica y otros gastos diferidos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="183.04" NumCta="1830400" Desc="Amortización acumulada de activos intangibles" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="183.05" NumCta="1830500" Desc="Amortización acumulada de gastos de organización" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="183.06" NumCta="1830600" Desc="Amortización acumulada de investigación y desarrollo de mercado" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="183.07" NumCta="1830700" Desc="Amortización acumulada de marcas y patentes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="183.08" NumCta="1830800" Desc="Amortización acumulada de crédito mercantil" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="183.09" NumCta="1830900" Desc="Amortización acumulada de gastos de instalación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="183.10" NumCta="1831000" Desc="Amortización acumulada de otros activos diferidos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="184" NumCta="1840000" Desc="Depósitos en garantía" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="184.01" NumCta="1840100" Desc="Depósitos de fianzas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="184.02" NumCta="1840200" Desc="Depósitos de arrendamiento de bienes inmuebles" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="184.03" NumCta="1840300" Desc="Otros depósitos en garantía" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="185" NumCta="1850000" Desc="Impuestos diferidos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="185.01" NumCta="1850100" Desc="Impuestos diferidos ISR" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="186" NumCta="1860000" Desc="Cuentas y documentos por cobrar a largo plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="186.01" NumCta="1860100" Desc="Cuentas y documentos por cobrar a largo plazo nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="186.02" NumCta="1860200" Desc="Cuentas y documentos por cobrar a largo plazo extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="186.03" NumCta="1860300" Desc="Cuentas y documentos por cobrar a largo plazo nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="186.04" NumCta="1860400" Desc="Cuentas y documentos por cobrar a largo plazo extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="186.05" NumCta="1860500" Desc="Intereses por cobrar a largo plazo nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="186.06" NumCta="1860600" Desc="Intereses por cobrar a largo plazo extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="186.07" NumCta="1860700" Desc="Intereses por cobrar a largo plazo nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="186.08" NumCta="1860800" Desc="Intereses por cobrar a largo plazo extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="186.09" NumCta="1860900" Desc="Otras cuentas y documentos por cobrar a largo plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="186.10" NumCta="1861000" Desc="Otras cuentas y documentos por cobrar a largo plazo parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="187" NumCta="1870000" Desc="Participación de los trabajadores en las utilidades diferidas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="187.01" NumCta="1870100" Desc="Participación de los trabajadores en las utilidades diferidas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="188" NumCta="1880000" Desc="Inversiones permanentes en acciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="188.01" NumCta="1880100" Desc="Inversiones a largo plazo en subsidiarias" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="188.02" NumCta="1880200" Desc="Inversiones a largo plazo en asociadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="188.03" NumCta="1880300" Desc="Otras inversiones permanentes en acciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="189" NumCta="1890000" Desc="Estimación por deterioro de inversiones permanentes en acciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="189.01" NumCta="1890100" Desc="Estimación por deterioro de inversiones permanentes en acciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="190" NumCta="1900000" Desc="Otros instrumentos financieros" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="190.01" NumCta="1900100" Desc="Otros instrumentos financieros" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="191" NumCta="1910000" Desc="Otros activos a largo plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="191.01" NumCta="1910100" Desc="Otros activos a largo plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="200" NumCta="2000000" Desc="Pasivo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="201" NumCta="2010000" Desc="Proveedores" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="201.01" NumCta="2010100" Desc="Proveedores nacionales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="201.02" NumCta="2010200" Desc="Proveedores extranjeros" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="201.03" NumCta="2010300" Desc="Proveedores nacionales parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="201.04" NumCta="2010400" Desc="Proveedores extranjeros parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="201.01" NumCta="2010500" Desc="Proveedores (Clearing)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="202" NumCta="2020000" Desc="Cuentas por pagar a corto plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="202.01" NumCta="2020100" Desc="Documentos por pagar bancario y financiero nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="202.02" NumCta="2020200" Desc="Documentos por pagar bancario y financiero extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="202.03" NumCta="2020300" Desc="Documentos y cuentas por pagar a corto plazo nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="202.03" NumCta="2020310" Desc="Obligación de arrendamiento corto plazo (Clearing)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="202.04" NumCta="2020400" Desc="Documentos y cuentas por pagar a corto plazo extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="202.05" NumCta="2020500" Desc="Documentos y cuentas por pagar a corto plazo nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="202.06" NumCta="2020600" Desc="Documentos y cuentas por pagar a corto plazo extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="202.07" NumCta="2020700" Desc="Intereses por pagar a corto plazo nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="202.08" NumCta="2020800" Desc="Intereses por pagar a corto plazo extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="202.09" NumCta="2020900" Desc="Intereses por pagar a corto plazo nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="202.10" NumCta="2021000" Desc="Intereses por pagar a corto plazo extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="202.11" NumCta="2021100" Desc="Dividendo por pagar nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="202.12" NumCta="2021200" Desc="Dividendo por pagar extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="203" NumCta="2030000" Desc="Cobros anticipados a corto plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="203.01" NumCta="2030100" Desc="Rentas cobradas por anticipado a corto plazo nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="203.02" NumCta="2030200" Desc="Rentas cobradas por anticipado a corto plazo extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="203.03" NumCta="2030300" Desc="Rentas cobradas por anticipado a corto plazo nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="203.04" NumCta="2030400" Desc="Rentas cobradas por anticipado a corto plazo extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="203.05" NumCta="2030500" Desc="Intereses cobrados por anticipado a corto plazo nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="203.06" NumCta="2030600" Desc="Intereses cobrados por anticipado a corto plazo extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="203.07" NumCta="2030700" Desc="Intereses cobrados por anticipado a corto plazo nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="203.08" NumCta="2030800" Desc="Intereses cobrados por anticipado a corto plazo extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="203.18" NumCta="2031800" Desc="Otros cobros anticipados" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="204" NumCta="2040000" Desc="Instrumentos financieros a corto plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="204.01" NumCta="2040100" Desc="Instrumentos financieros a corto plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="205" NumCta="2050000" Desc="Acreedores diversos a corto plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="205.01" NumCta="2050100" Desc="Socios, accionistas o representante legal" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="205.02" NumCta="2050200" Desc="Acreedores diversos a corto plazo nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="205.03" NumCta="2050300" Desc="Acreedores diversos a corto plazo extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="100" NumCta="2050310" Desc="Acreedores Diversos Obligación de arrendamiento largo plazo (Clearing)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="205.04" NumCta="2050400" Desc="Acreedores diversos a corto plazo nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="205.05" NumCta="2050500" Desc="Acreedores diversos a corto plazo extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="100" NumCta="2050600" Desc="Otros acreedores diversos a corto plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="205.01" NumCta="2050601" Desc="Retención préstamo caja de ahorro" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="205.06" NumCta="2050602" Desc="Otros acreedores diversos a corto plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="206" NumCta="2060000" Desc="Anticipo de cliente" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="206.01" NumCta="2060100" Desc="Anticipo de cliente nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="206.02" NumCta="2060200" Desc="Anticipo de cliente extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="206.03" NumCta="2060300" Desc="Anticipo de cliente nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="206.04" NumCta="2060400" Desc="Anticipo de cliente extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="206.05" NumCta="2060500" Desc="Otros anticipos de clientes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="207" NumCta="2070000" Desc="Impuestos trasladados" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="207.01" NumCta="2070100" Desc="IVA trasladado" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="207.02" NumCta="2070200" Desc="IEPS trasladado" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="208" NumCta="2080000" Desc="Impuestos trasladados cobrados" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="208.01" NumCta="2080100" Desc="IVA trasladado cobrado" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="208.01" NumCta="2080101" Desc="IVA trasladado cobrado 8%" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="208.02" NumCta="2080200" Desc="IEPS trasladado cobrado" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="209" NumCta="2090000" Desc="Impuestos trasladados no cobrados" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="209.01" NumCta="2090100" Desc="IVA trasladado no cobrado" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="209.01" NumCta="2090101" Desc="IVA trasladado no cobrado 8%" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="209.02" NumCta="2090200" Desc="IEPS trasladado no cobrado" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="210" NumCta="2100000" Desc="Provisión de sueldos y salarios por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="210" NumCta="2100100" Desc="Provisión de sueldos y salarios por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="210.01" NumCta="2100101" Desc="Provisión de sueldos y salarios por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="210.01" NumCta="2100102" Desc="Cuenta puente de sueldos y salarios [Clearing]" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="210.07" NumCta="2100103" Desc="Pensión Alimenticia" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="210" NumCta="2100200" Desc="Provisión de vacaciones por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="210.02" NumCta="2100201" Desc="Provisión de vacaciones por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="210.02" NumCta="2100202" Desc="Provisión de prima vacacional por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="210.03" NumCta="2100300" Desc="Provisión de aguinaldo por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="210" NumCta="2100400" Desc="Provisión de fondo de ahorro por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="210.04" NumCta="2100401" Desc="Fondo de Ahorro Compañía" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="210.04" NumCta="2100402" Desc="Fondo de Ahorro Empleado" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="210.04" NumCta="2100403" Desc="Entrega de Fondo de Ahorro" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="210.05" NumCta="2100500" Desc="Provisión de asimilados a salarios por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="210.06" NumCta="2100600" Desc="Provisión de anticipos o remanentes por distribuir" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="210.07" NumCta="2100700" Desc="Provisión de otros sueldos y salarios por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="211" NumCta="2110000" Desc="Provisión de contribuciones de seguridad social por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="211.01" NumCta="2110100" Desc="Provisión de IMSS patronal por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="211.02" NumCta="2110200" Desc="Provisión de SAR por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="211.03" NumCta="2110300" Desc="Provisión de infonavit por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="211.03" NumCta="2110400" Desc="Provisión de Fonacot" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="212" NumCta="2120000" Desc="Provisión de impuesto estatal sobre nómina por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="212.01" NumCta="2120100" Desc="Provisión de impuesto estatal sobre nómina por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="213" NumCta="2130000" Desc="Impuestos y derechos por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="213.01" NumCta="2130100" Desc="IVA por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="213.02" NumCta="2130200" Desc="IEPS por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="213.03" NumCta="2130300" Desc="ISR por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="213.04" NumCta="2130400" Desc="Impuesto estatal sobre nómina por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="213.05" NumCta="2130500" Desc="Impuesto estatal y municipal por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="213.06" NumCta="2130600" Desc="Derechos por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="213.07" NumCta="2130700" Desc="Otros impuestos por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="214" NumCta="2140000" Desc="Dividendos por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="214.01" NumCta="2140100" Desc="Dividendos por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="215" NumCta="2150000" Desc="PTU por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="215.01" NumCta="2150100" Desc="PTU por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="215.02" NumCta="2150200" Desc="PTU por pagar de ejercicios anteriores" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="215.03" NumCta="2150300" Desc="Provisión de PTU por pagar" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="216" NumCta="2160000" Desc="Impuestos retenidos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="216.01" NumCta="2160100" Desc="Impuestos retenidos de ISR por sueldos y salarios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="216.02" NumCta="2160200" Desc="Impuestos retenidos de ISR por asimilados a salarios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="216.03" NumCta="2160300" Desc="Impuestos retenidos de ISR por arrendamiento" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="216.04" NumCta="2160400" Desc="Impuestos retenidos de ISR por servicios profesionales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="216.05" NumCta="2160500" Desc="Impuestos retenidos de ISR por dividendos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="216.06" NumCta="2160600" Desc="Impuestos retenidos de ISR por intereses" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="216.07" NumCta="2160700" Desc="Impuestos retenidos de ISR por pagos al extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="216.08" NumCta="2160800" Desc="Impuestos retenidos de ISR por venta de acciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="216.09" NumCta="2160900" Desc="Impuestos retenidos de ISR por venta de partes sociales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="100" NumCta="2161000" Desc="Impuestos retenidos de IVA" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="216.10" NumCta="2161001" Desc="Impuestos retenidos de IVA por fletes nacionales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="216.10" NumCta="2161002" Desc="Impuestos retenidos de IVA por arrendamientos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="216.10" NumCta="2161003" Desc="Impuestos retenidos de IVA por servicios profesionales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="216.10" NumCta="2161004" Desc="Impuestos retenidos de IVA por compras a extranjeros" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="216.10" NumCta="2161005" Desc="Impuestos retenidos de IVA a Proveedores de Servicios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="216.11" NumCta="2161100" Desc="Retenciones de IMSS a los trabajadores" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="100" NumCta="2161200" Desc="Otros impuestos retenidos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="216.12" NumCta="2161201" Desc="Otros impuestos retenidos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="216.12" NumCta="2161202" Desc="Impuesto Cedular Estatal" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="217" NumCta="2170000" Desc="Pagos realizados por cuenta de terceros" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="217.01" NumCta="2170100" Desc="Pagos realizados por cuenta de terceros" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="218" NumCta="2180000" Desc="Otros pasivos a corto plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="218.01" NumCta="2180100" Desc="Otros pasivos a corto plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="251" NumCta="2510000" Desc="Acreedores diversos a largo plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="251.01" NumCta="2510100" Desc="Socios, accionistas o representante legal" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="251.02" NumCta="2510200" Desc="Acreedores diversos a largo plazo nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="251.03" NumCta="2510300" Desc="Acreedores diversos a largo plazo extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="251.04" NumCta="2510400" Desc="Acreedores diversos a largo plazo nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="251.05" NumCta="2510500" Desc="Acreedores diversos a largo plazo extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="251.06" NumCta="2510600" Desc="Otros acreedores diversos a largo plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="252" NumCta="2520000" Desc="Cuentas por pagar a largo plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="252.01" NumCta="2520100" Desc="Documentos bancarios y financieros por pagar a largo plazo nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="252.02" NumCta="2520200" Desc="Documentos bancarios y financieros por pagar a largo plazo extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="252.03" NumCta="2520300" Desc="Documentos y cuentas por pagar a largo plazo nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="252.03" NumCta="2520310" Desc="Obligación de arrendamiento largo plazo (Clearing)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="252.04" NumCta="2520400" Desc="Documentos y cuentas por pagar a largo plazo extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="252.05" NumCta="2520500" Desc="Documentos y cuentas por pagar a largo plazo nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="252.06" NumCta="2520600" Desc="Documentos y cuentas por pagar a largo plazo extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="252.11" NumCta="2521100" Desc="Intereses por pagar a largo plazo nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="252.12" NumCta="2521200" Desc="Intereses por pagar a largo plazo extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="252.13" NumCta="2521300" Desc="Intereses por pagar a largo plazo nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="252.14" NumCta="2521400" Desc="Intereses por pagar a largo plazo extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="252.15" NumCta="2521500" Desc="Dividendos por pagar nacionales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="252.16" NumCta="2521600" Desc="Dividendos por pagar extranjeros" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="252.17" NumCta="2521700" Desc="Otras cuentas y documentos por pagar a largo plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="253" NumCta="2530000" Desc="Cobros anticipados a largo plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="253.01" NumCta="2530100" Desc="Rentas cobradas por anticipado a largo plazo nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="253.02" NumCta="2530200" Desc="Rentas cobradas por anticipado a largo plazo extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="253.03" NumCta="2530300" Desc="Rentas cobradas por anticipado a largo plazo nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="253.04" NumCta="2530400" Desc="Rentas cobradas por anticipado a largo plazo extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="253.05" NumCta="2530500" Desc="Intereses cobrados por anticipado a largo plazo nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="253.06" NumCta="2530600" Desc="Intereses cobrados por anticipado a largo plazo extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="253.07" NumCta="2530700" Desc="Intereses cobrados por anticipado a largo plazo nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="253.08" NumCta="2530800" Desc="Intereses cobrados por anticipado a largo plazo extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="253.09" NumCta="2530900" Desc="Factoraje financiero cobrados por anticipado a largo plazo nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="253.10" NumCta="2531000" Desc="Factoraje financiero cobrados por anticipado a largo plazo extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="253.11" NumCta="2531100" Desc="Factoraje financiero cobrados por anticipado a largo plazo nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="253.12" NumCta="2531200" Desc="Factoraje financiero cobrados por anticipado a largo plazo extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="253.13" NumCta="2531300" Desc="Arrendamiento financiero cobrados por anticipado a largo plazo nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="253.14" NumCta="2531400" Desc="Arrendamiento financiero cobrados por anticipado a largo plazo extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="253.15" NumCta="2531500" Desc="Arrendamiento financiero cobrados por anticipado a largo plazo nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="253.16" NumCta="2531600" Desc="Arrendamiento financiero cobrados por anticipado a largo plazo extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="253.17" NumCta="2531700" Desc="Derechos fiduciarios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="253.18" NumCta="2531800" Desc="Otros cobros anticipados" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="254" NumCta="2540000" Desc="Instrumentos financieros a largo plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="254.01" NumCta="2540100" Desc="Instrumentos financieros a largo plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="255" NumCta="2550000" Desc="Pasivos por beneficios a los empleados a largo plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="255.01" NumCta="2550100" Desc="Pasivos por beneficios a los empleados a largo plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="256" NumCta="2560000" Desc="Otros pasivos a largo plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="256.01" NumCta="2560100" Desc="Otros pasivos a largo plazo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="257" NumCta="2570000" Desc="Participación de los trabajadores en las utilidades diferida" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="257.01" NumCta="2570100" Desc="Participación de los trabajadores en las utilidades diferida" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="259" NumCta="2590000" Desc="Impuestos diferidos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="259.01" NumCta="2590100" Desc="ISR diferido" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="259.02" NumCta="2590200" Desc="ISR por dividendo diferido" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="259.03" NumCta="2590300" Desc="Otros impuestos diferidos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="260" NumCta="2600000" Desc="Pasivos diferidos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="260.01" NumCta="2600100" Desc="Pasivos diferidos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="100" NumCta="3000000" Desc="Capital contable" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="301" NumCta="3010000" Desc="Capital social" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="301.01" NumCta="3010100" Desc="Capital fijo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="301.02" NumCta="3010200" Desc="Capital variable" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="301.03" NumCta="3010300" Desc="Aportaciones para futuros aumentos de capital" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="301.04" NumCta="3010400" Desc="Prima en suscripción de acciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="301.05" NumCta="3010500" Desc="Prima en suscripción de partes sociales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="301.01" NumCta="3010800" Desc="Capital fijo suscrito y no exhibido" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="301.02" NumCta="3010900" Desc="Capital variable suscrito y no exhibido" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="303" NumCta="3030000" Desc="Reserva legal" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="303.01" NumCta="3030100" Desc="Reserva legal" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304" NumCta="3040000" Desc="Resultado de ejercicios anteriores" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304" NumCta="3040100" Desc="Utilidad de ejercicios anteriores" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.01" NumCta="3040101" Desc="Utilidad de ejercicio 2005" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.01" NumCta="3040102" Desc="Utilidad de ejercicio 2006" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.01" NumCta="3040103" Desc="Utilidad de ejercicio 2007" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.01" NumCta="3040104" Desc="Utilidad de ejercicio 2008" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.01" NumCta="3040105" Desc="Utilidad de ejercicio 2009" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.01" NumCta="3040106" Desc="Utilidad de ejercicio 2010" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.01" NumCta="3040107" Desc="Utilidad de ejercicio 2011" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.01" NumCta="3040108" Desc="Utilidad de ejercicio 2012" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.01" NumCta="3040109" Desc="Utilidad de ejercicio 2013" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.01" NumCta="3040110" Desc="Utilidad de ejercicio 2014" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.01" NumCta="3040111" Desc="Utilidad de ejercicio 2015" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.01" NumCta="3040112" Desc="Utilidad de ejercicio 2016" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.01" NumCta="3040113" Desc="Utilidad de ejercicio 2017" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.01" NumCta="3040114" Desc="Utilidad de ejercicio 2018" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.01" NumCta="3040115" Desc="Utilidad de ejercicio 2019" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304" NumCta="3040200" Desc="Pérdida de ejercicios anteriores" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.02" NumCta="3040201" Desc="Pérdida de ejercicio 2005" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.02" NumCta="3040202" Desc="Pérdida de ejercicio 2006" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.02" NumCta="3040203" Desc="Pérdida de ejercicio 2007" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.02" NumCta="3040204" Desc="Pérdida de ejercicio 2008" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.02" NumCta="3040205" Desc="Pérdida de ejercicio 2009" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.02" NumCta="3040206" Desc="Pérdida de ejercicio 2010" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.02" NumCta="3040207" Desc="Pérdida de ejercicio 2011" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.02" NumCta="3040208" Desc="Pérdida de ejercicio 2012" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.02" NumCta="3040209" Desc="Pérdida de ejercicio 2013" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.02" NumCta="3040210" Desc="Pérdida de ejercicio 2014" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.02" NumCta="3040211" Desc="Pérdida de ejercicio 2015" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.02" NumCta="3040212" Desc="Pérdida de ejercicio 2016" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.02" NumCta="3040213" Desc="Pérdida de ejercicio 2017" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.02" NumCta="3040214" Desc="Pérdida de ejercicio 2018" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.02" NumCta="3040215" Desc="Pérdida de ejercicio 2019" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.03" NumCta="3040300" Desc="Resultado integral de ejercicios anteriores" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="304.04" NumCta="3040400" Desc="Déficit o remanente de ejercicio anteriores" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="305" NumCta="3050000" Desc="Resultado del ejercicio" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="305.01" NumCta="3050100" Desc="Utilidad del ejercicio" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="305.02" NumCta="3050200" Desc="Pérdida del ejercicio" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="305.03" NumCta="3050300" Desc="Resultado integral" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="306" NumCta="3060000" Desc="Otras cuentas de capital" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="306.01" NumCta="3060100" Desc="Otras cuentas de capital" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="100" NumCta="4000000" Desc="Ingresos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401" NumCta="4010000" Desc="Ingresos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.01" NumCta="4010100" Desc="Ventas y/o servicios gravados a la tasa general" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.04" NumCta="4010400" Desc="Ventas y/o servicios gravados al 0%" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.07" NumCta="4010700" Desc="Ventas y/o servicios exentos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.10" NumCta="4011000" Desc="Ventas y/o servicios gravados a la tasa general nacionales partes relacionadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.11" NumCta="4011100" Desc="Ventas y/o servicios gravados a la tasa general extranjeros partes relacionadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.12" NumCta="4011200" Desc="Ventas y/o servicios gravados al 0% nacionales partes relacionadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.13" NumCta="4011300" Desc="Ventas y/o servicios gravados al 0% extranjeros partes relacionadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.14" NumCta="4011400" Desc="Ventas y/o servicios exentos nacionales partes relacionadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.15" NumCta="4011500" Desc="Ventas y/o servicios exentos extranjeros partes relacionadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.16" NumCta="4011600" Desc="Ingresos por servicios administrativos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.17" NumCta="4011700" Desc="Ingresos por servicios administrativos nacionales partes relacionadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.18" NumCta="4011800" Desc="Ingresos por servicios administrativos extranjeros partes relacionadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.19" NumCta="4011900" Desc="Ingresos por servicios profesionales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.20" NumCta="4012000" Desc="Ingresos por servicios profesionales nacionales partes relacionadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.21" NumCta="4012100" Desc="Ingresos por servicios profesionales extranjeros partes relacionadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.22" NumCta="4012200" Desc="Ingresos por arrendamiento" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.23" NumCta="4012300" Desc="Ingresos por arrendamiento nacionales partes relacionadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.24" NumCta="4012400" Desc="Ingresos por arrendamiento extranjeros partes relacionadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.25" NumCta="4012500" Desc="Ingresos por exportación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.27" NumCta="4012700" Desc="Ingresos por maquila" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.29" NumCta="4012900" Desc="Ingresos por regalías" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.30" NumCta="4013000" Desc="Ingresos por asistencia técnica" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.31" NumCta="4013100" Desc="Ingresos por donativos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.32" NumCta="4013200" Desc="Ingresos por intereses (actividad propia)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401" NumCta="4013800" Desc="Otros ingresos propios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.38" NumCta="4013801" Desc="Otros ingresos propios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="401.38" NumCta="4013802" Desc="Ingresos por venta de Scrap" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="402" NumCta="4020000" Desc="Devoluciones, descuentos o bonificaciones sobre ingresos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="402" NumCta="4020100" Desc="Devoluciones, descuentos o bonificaciones sobre ventas y/o servicios a la tasa general" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="402.01" NumCta="4020101" Desc="Devoluciones sobre ventas y/o servicios a la tasa general" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="402.01" NumCta="4020102" Desc="Descuentos o Bonificaciones sobre ventas y/o servicios a la tasa general" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="402" NumCta="4020200" Desc="Devoluciones, descuentos o bonificaciones sobre ventas y/o servicios al 0%" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="402.02" NumCta="4020201" Desc="Devoluciones sobre ventas y/o servicios al 0%" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="402.02" NumCta="4020202" Desc="Descuentos o Bonificaciones sobre ventas y/o servicios al 0%" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="100" NumCta="4020300" Desc="Devoluciones, descuentos o bonificaciones sobre ventas y/o servicios exentos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="402.03" NumCta="4020301" Desc="Devoluciones sobre ventas y/o servicios exentos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="402.03" NumCta="4020302" Desc="Descuentos o Bonificaciones sobre ventas y/o servicios exentos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="402" NumCta="4020400" Desc="Devoluciones, descuentos o bonificaciones de otros ingresos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="402.04" NumCta="4020401" Desc="Devoluciones de otros ingresos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="402.04" NumCta="4020402" Desc="Descuentos o Bonificaciones de otros ingresos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="403" NumCta="4030000" Desc="Otros ingresos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="100" NumCta="4030100" Desc="Otros Ingresos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="403.01" NumCta="4030101" Desc="Otros Ingresos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="403.01" NumCta="4030102" Desc="Otros Ingresos por Dividendos Cobrados" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="403.01" NumCta="4030103" Desc="Provision Ingresos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="403.01" NumCta="4030104" Desc="Otros Ingresos (D5)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="403.02" NumCta="4030200" Desc="Otros ingresos nacionales parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="403.03" NumCta="4030300" Desc="Otros ingresos extranjeros parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="403" NumCta="4030400" Desc="Ingresos por operaciones discontinuas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="403.04" NumCta="4030401" Desc="Ingresos por operaciones discontinuas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="403.04" NumCta="4030402" Desc="Ingresos por operaciones discontinuas (venta activo fijo)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="403.05" NumCta="4030500" Desc="Ingresos por condonación de adeudo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="500" NumCta="5000000" Desc="Costos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="501" NumCta="5010000" Desc="Costo de venta y/o servicio" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="501.01" NumCta="5010100" Desc="Costo de venta" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="501.02" NumCta="5010200" Desc="Costo de servicios (Mano de obra)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="501.03" NumCta="5010300" Desc="Materia prima directa utilizada para la producción" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="501.04" NumCta="5010400" Desc="Materia prima consumida en el proceso productivo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="501.05" NumCta="5010500" Desc="Mano de obra directa consumida" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="501.06" NumCta="5010600" Desc="Mano de obra directa" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="501.07" NumCta="5010700" Desc="Cargos indirectos de producción" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="501" NumCta="5010800" Desc="Otros conceptos de costo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="501.08" NumCta="5010801" Desc="Otros conceptos de costo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="501.08" NumCta="5010802" Desc="Comisiones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="501.08" NumCta="5010803" Desc="Comisiones nuevas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="501.08" NumCta="5010804" Desc="Comisiones por renovacion" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="501.08" NumCta="5010805" Desc="Comisiones de Terceros" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="501.08" NumCta="5010806" Desc="Inventario Inicial Materia Prima" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="501.08" NumCta="5010807" Desc="Inventario Final Materia Prima" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="501.08" NumCta="5010808" Desc="Inventario Inicial Producto Terminado" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="501.08" NumCta="5010809" Desc="Inventario Final Producto Terminado" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="501.08" NumCta="5010810" Desc="Inventario Inicial de Producción en Proceso" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="501.08" NumCta="5010811" Desc="Inventario Final de Producción en Proceso" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="502" NumCta="5020000" Desc="Compras" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="502.01" NumCta="5020100" Desc="Compras nacionales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="502.02" NumCta="5020200" Desc="Compras nacionales parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="502.03" NumCta="5020300" Desc="Compras de Importación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="502.04" NumCta="5020400" Desc="Compras de Importación partes relacionadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="503" NumCta="5030000" Desc="Devoluciones, descuentos o bonificaciones sobre compras" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="503.01" NumCta="5030100" Desc="Devoluciones, descuentos o bonificaciones sobre compras" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504" NumCta="5040000" Desc="Otras cuentas de costos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504" NumCta="5040100" Desc="Gastos indirectos de fabricación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.01" NumCta="5040101" Desc="Gastos indirectos de fabricación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.01" NumCta="5040102" Desc="Material de Empaque" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.01" NumCta="5040103" Desc="Consumibles Industriales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.01" NumCta="5040104" Desc="Retrabajos o Submaquila" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.01" NumCta="5040105" Desc="Aceites y Lubricantes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.01" NumCta="5040106" Desc="Herramientas Varias" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.01" NumCta="5040107" Desc="Pintura" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.01" NumCta="5040108" Desc="Abrasivos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.01" NumCta="5040109" Desc="Suministros de Soldadura" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.01" NumCta="5040110" Desc="Agentes de Limpieza" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.01" NumCta="5040111" Desc="Gas de Soldadura" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504" NumCta="5040200" Desc="Gastos indirectos de fabricación de partes relacionadas nacionales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.02" NumCta="5040201" Desc="Gastos indirectos de fabricación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.02" NumCta="5040202" Desc="Material de Empaque" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.02" NumCta="5040203" Desc="Consumibles Industriales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.02" NumCta="5040204" Desc="Retrabajos o Submaquila" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504" NumCta="5040300" Desc="Gastos indirectos de fabricación de partes relacionadas extranjeras" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.03" NumCta="5040301" Desc="Gastos indirectos de fabricación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.03" NumCta="5040302" Desc="Material de Empaque" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.03" NumCta="5040303" Desc="Consumibles Industriales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.03" NumCta="5040304" Desc="Retrabajos o Submaquila" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.04" NumCta="5040400" Desc="Otras cuentas de costos incurridos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.05" NumCta="5040500" Desc="Otras cuentas de costos incurridos con partes relacionadas nacionales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.06" NumCta="5040600" Desc="Otras cuentas de costos incurridos con partes relacionadas extranjeras" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.07" NumCta="5040700" Desc="Depreciación de edificios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.08" NumCta="5040800" Desc="Depreciación de maquinaria y equipo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.18" NumCta="5041800" Desc="Depreciación de troqueles, moldes, matrices y herramental" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="504.25" NumCta="5042500" Desc="Otras cuentas de costos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="505" NumCta="5050000" Desc="Costo de activo fijo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="505.01" NumCta="5050100" Desc="Costo por venta de activo fijo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="505.02" NumCta="5050200" Desc="Costo por baja de activo fijo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="100" NumCta="6000000" Desc="Gastos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601" NumCta="6010000" Desc="Gastos generales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.01" NumCta="6010100" Desc="Sueldos y salarios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.01" NumCta="6010103" Desc="Sueldos Indirectos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.01" NumCta="6010104" Desc="Sueldos Management" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.02" NumCta="6010200" Desc="Compensaciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.03" NumCta="6010300" Desc="Tiempos extras" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.04" NumCta="6010400" Desc="Premios de asistencia" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.05" NumCta="6010500" Desc="Premios de puntualidad" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.06" NumCta="6010600" Desc="Vacaciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.07" NumCta="6010700" Desc="Prima vacacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.08" NumCta="6010800" Desc="Prima dominical" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.09" NumCta="6010900" Desc="Días festivos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.09" NumCta="6010901" Desc="Sueldos dia Festivo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.10" NumCta="6011000" Desc="Gratificaciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.11" NumCta="6011100" Desc="Primas de antigüedad" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.12" NumCta="6011200" Desc="Aguinaldo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.13" NumCta="6011300" Desc="Indemnizaciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.14" NumCta="6011400" Desc="Destajo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.15" NumCta="6011500" Desc="Despensa" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.16" NumCta="6011600" Desc="Transporte" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.17" NumCta="6011700" Desc="Servicio médico" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.18" NumCta="6011800" Desc="Ayuda en gastos funerarios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.19" NumCta="6011900" Desc="Fondo de ahorro" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.20" NumCta="6012000" Desc="Cuotas sindicales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.21" NumCta="6012100" Desc="PTU" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.22" NumCta="6012200" Desc="Estímulo al personal" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.23" NumCta="6012300" Desc="Previsión social" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.23" NumCta="6012301" Desc="Plan de Prevision Social" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.24" NumCta="6012400" Desc="Aportaciones para el plan de jubilación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601" NumCta="6012500" Desc="Otras prestaciones al personal" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.25" NumCta="6012501" Desc="Otras prestaciones al personal" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.25" NumCta="6012502" Desc="Seguro de Vida" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.25" NumCta="6012503" Desc="Seguro de Gastos Medicos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.25" NumCta="6012504" Desc="Subsidio Becarios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.25" NumCta="6012505" Desc="Ayuda Transporte Becarios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.25" NumCta="6012506" Desc="Seguro Practicantes/Becarios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.25" NumCta="6012507" Desc="Practicas Profesionales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.26" NumCta="6012600" Desc="Cuotas al IMSS" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.27" NumCta="6012700" Desc="Aportaciones al infonavit" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.28" NumCta="6012800" Desc="Aportaciones al SAR" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.29" NumCta="6012900" Desc="Impuesto estatal sobre nóminas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.30" NumCta="6013000" Desc="Otras aportaciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.31" NumCta="6013100" Desc="Asimilados a salarios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601" NumCta="6013200" Desc="Servicios administrativos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.32" NumCta="6013201" Desc="Servicios administrativos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.32" NumCta="6013202" Desc="Estudios Ambientales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.32" NumCta="6013203" Desc="Servicios IT" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.32" NumCta="6013204" Desc="Servicios Legales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.32" NumCta="6013205" Desc="Serficios Fiscales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.32" NumCta="6013206" Desc="Gastos o Servicios Pass Thru" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.32" NumCta="6013207" Desc="Servicios de Auditorias" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.32" NumCta="6013208" Desc="Otros servicios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.32" NumCta="6013209" Desc="Servicios Administrativos Intercompañías" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.33" NumCta="6013300" Desc="Servicios administrativos partes relacionadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.34" NumCta="6013400" Desc="Honorarios a personas físicas residentes nacionales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.35" NumCta="6013500" Desc="Honorarios a personas físicas residentes nacionales partes relacionadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.36" NumCta="6013600" Desc="Honorarios a personas físicas residentes del extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.37" NumCta="6013700" Desc="Honorarios a personas físicas residentes del extranjero partes relacionadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601" NumCta="6013800" Desc="Honorarios a personas morales residentes nacionales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.38" NumCta="6013801" Desc="Honorarios a personas morales residentes nacionales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.38" NumCta="6013802" Desc="Honorarios a personas morales residentes nacionales proyectos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.39" NumCta="6013900" Desc="Honorarios a personas morales residentes nacionales partes relacionadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.40" NumCta="6014000" Desc="Honorarios a personas morales residentes del extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.41" NumCta="6014100" Desc="Honorarios a personas morales residentes del extranjero partes relacionadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.42" NumCta="6014200" Desc="Honorarios aduanales personas físicas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.43" NumCta="6014300" Desc="Honorarios aduanales personas morales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.43" NumCta="6014301" Desc="Honorarios aduanales personas morales materia prima" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.44" NumCta="6014400" Desc="Honorarios al consejo de administración" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.45" NumCta="6014500" Desc="Arrendamiento a personas físicas residentes nacionales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601" NumCta="6014600" Desc="Arrendamiento a personas morales residentes nacionales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.46" NumCta="6014601" Desc="Renta de Edificio" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.46" NumCta="6014602" Desc="Renta de Autos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.46" NumCta="6014603" Desc="Renta de Equipo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.47" NumCta="6014700" Desc="Arrendamiento a residentes del extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601" NumCta="6014800" Desc="Combustibles y lubricantes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.48" NumCta="6014801" Desc="Gas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.48" NumCta="6014802" Desc="Gasolina y Diesel" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601" NumCta="6014900" Desc="Viáticos y gastos de viaje" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.49" NumCta="6014901" Desc="Hospedaje" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.49" NumCta="6014902" Desc="Alimentación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.49" NumCta="6014903" Desc="Transporte" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.49" NumCta="6014904" Desc="Varios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601" NumCta="6015000" Desc="Teléfono, internet" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.50" NumCta="6015001" Desc="Telefono" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.50" NumCta="6015002" Desc="Celulares" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.50" NumCta="6015003" Desc="Internet" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.50" NumCta="6015004" Desc="Radios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.51" NumCta="6015100" Desc="Agua" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.52" NumCta="6015200" Desc="Energía eléctrica" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601" NumCta="6015300" Desc="Vigilancia y seguridad" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.53" NumCta="6015301" Desc="Articulos de Seguridad" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.53" NumCta="6015302" Desc="Extintores" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.53" NumCta="6015303" Desc="Servicios Vigilancia" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.54" NumCta="6015400" Desc="Limpieza" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.54" NumCta="6015401" Desc="Recolección de Basura" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.55" NumCta="6015500" Desc="Papelería y artículos de oficina" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.55" NumCta="6015501" Desc="Botiquin" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601" NumCta="6015600" Desc="Mantenimiento y conservación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.56" NumCta="6015601" Desc="Edificio" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.56" NumCta="6015602" Desc="Equipo de transporte" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.56" NumCta="6015603" Desc="Equipo de Computo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.56" NumCta="6015604" Desc="Equipo de Oficina" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.56" NumCta="6015605" Desc="Maquinaria y equipo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.56" NumCta="6015606" Desc="Herramienta" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601" NumCta="6015700" Desc="Seguros y fianzas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.57" NumCta="6015701" Desc="Seguro de Edificio" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.57" NumCta="6015702" Desc="Seguro de transporte" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.57" NumCta="6015703" Desc="Fianzas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601" NumCta="6015800" Desc="Otros impuestos y derechos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.58" NumCta="6015801" Desc="Derecho de Tramite Aduanero (DTA)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.58" NumCta="6015802" Desc="Prevalidación (PRV)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.58" NumCta="6015803" Desc="Impuesto General de Importación (IGI)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.58" NumCta="6015804" Desc="Otros impuestos y derechos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.58" NumCta="6015805" Desc="Placas y Tenencia" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601" NumCta="6015900" Desc="Recargos fiscales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.59" NumCta="6015901" Desc="Multa" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.59" NumCta="6015902" Desc="Recargos fiscales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.59" NumCta="6015903" Desc="Actualizaciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601" NumCta="6016000" Desc="Cuotas y suscripciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.60" NumCta="6016001" Desc="Cuotas y suscripciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.60" NumCta="6016002" Desc="Cuotas y suscripciones proyectos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.60" NumCta="6016003" Desc="Asociación de Maquiladoras" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601" NumCta="6016100" Desc="Propaganda y publicidad" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.61" NumCta="6016101" Desc="Anuncios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.61" NumCta="6016102" Desc="Eventos especiales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.61" NumCta="6016103" Desc="Atencion Propectos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.62" NumCta="6016200" Desc="Capacitación al personal" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.63" NumCta="6016300" Desc="Donativos y ayudas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.64" NumCta="6016400" Desc="Asistencia técnica" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.65" NumCta="6016500" Desc="Regalías sujetas a otros porcentajes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.66" NumCta="6016600" Desc="Regalías sujetas al 5%" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.67" NumCta="6016700" Desc="Regalías sujetas al 10%" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.68" NumCta="6016800" Desc="Regalías sujetas al 15%" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.69" NumCta="6016900" Desc="Regalías sujetas al 25%" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.70" NumCta="6017000" Desc="Regalías sujetas al 30%" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.71" NumCta="6017100" Desc="Regalías sin retención" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601" NumCta="6017200" Desc="Fletes y acarreos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.72" NumCta="6017201" Desc="Fletes de Recibir con Retención" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.72" NumCta="6017202" Desc="Fletes de Enviar con Retención" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.72" NumCta="6017203" Desc="Fletes de Recibir sin Retención" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.72" NumCta="6017204" Desc="Fletes de Enviar sin Retención" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.73" NumCta="6017300" Desc="Gastos Aduanales de importación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.73" NumCta="6017301" Desc="Gastos Aduanales materia prima" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.74" NumCta="6017400" Desc="Comisiones sobre ventas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.75" NumCta="6017500" Desc="Comisiones por tarjetas de crédito" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.76" NumCta="6017600" Desc="Patentes y marcas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.77" NumCta="6017700" Desc="Uniformes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.78" NumCta="6017800" Desc="Prediales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.79" NumCta="6017900" Desc="Gastos generales de urbanización" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.80" NumCta="6018000" Desc="Gastos generales de construcción" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.81" NumCta="6018100" Desc="Fletes del extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.82" NumCta="6018200" Desc="Recolección de bienes del sector agropecuario y/o ganadero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601" NumCta="6018300" Desc="Gastos no deducibles (sin requisitos fiscales)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.83" NumCta="6018301" Desc="Gastos no deducibles (sin requisitos fiscales)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.83" NumCta="6018302" Desc="Gastos no deducibles (sin requisitos fiscales) proyectos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.83" NumCta="6018303" Desc="Gastos ND consumos restaurantes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.83" NumCta="6018304" Desc="Gastos ND IVA" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601" NumCta="6018400" Desc="Otros gastos generales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.84" NumCta="6018401" Desc="Otros gastos generales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.84" NumCta="6018402" Desc="Eventos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.84" NumCta="6018403" Desc="Gastos Aduanales de Exportación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.84" NumCta="6018404" Desc="Recolección de Residuos Industriales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.84" NumCta="6018405" Desc="Gastos de Contratación de Personal" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.84" NumCta="6018406" Desc="Licenciamiento de Software" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="601.84" NumCta="6018407" Desc="Agua de Garrafón" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="100" NumCta="6020000" Desc="Gastos de venta" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="602.84" NumCta="6028400" Desc="Otros gastos de venta" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="602.84" NumCta="6028401" Desc="Muestras a clientes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="602.84" NumCta="6028402" Desc="Scrap" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="602.84" NumCta="6028403" Desc="Gasto por diferencia en inventario RM WIP" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="602.84" NumCta="6028404" Desc="Gastos por diferencia en precio" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605" NumCta="6050000" Desc="Mano de obra directa" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.01" NumCta="6050100" Desc="Mano de obra" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.02" NumCta="6050200" Desc="Sueldos y Salarios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.03" NumCta="6050300" Desc="Compensaciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.04" NumCta="6050400" Desc="Tiempos extras" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.05" NumCta="6050500" Desc="Premios de asistencia" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.06" NumCta="6050600" Desc="Premios de puntualidad" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.07" NumCta="6050700" Desc="Vacaciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.08" NumCta="6050800" Desc="Prima vacacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.09" NumCta="6050900" Desc="Prima dominical" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.10" NumCta="6051000" Desc="Días festivos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.11" NumCta="6051100" Desc="Gratificaciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.12" NumCta="6051200" Desc="Primas de antigüedad" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.13" NumCta="6051300" Desc="Aguinaldo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.14" NumCta="6051400" Desc="Indemnizaciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.15" NumCta="6051500" Desc="Destajo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.16" NumCta="6051600" Desc="Despensa" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.17" NumCta="6051700" Desc="Transporte" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.18" NumCta="6051800" Desc="Servicio médico" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.19" NumCta="6051900" Desc="Ayuda en gastos funerarios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.20" NumCta="6052000" Desc="Fondo de ahorro" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.21" NumCta="6052100" Desc="Cuotas sindicales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.22" NumCta="6052200" Desc="PTU" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.23" NumCta="6052300" Desc="Estímulo al personal" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.24" NumCta="6052400" Desc="Previsión social" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.25" NumCta="6052500" Desc="Aportaciones para el plan de jubilación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.26" NumCta="6052600" Desc="Otras prestaciones al personal" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.27" NumCta="6052700" Desc="Asimilados a salarios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.28" NumCta="6052800" Desc="Cuotas al IMSS" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.29" NumCta="6052900" Desc="Aportaciones al infonavit" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.30" NumCta="6053000" Desc="Aportaciones al SAR" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="605.31" NumCta="6053100" Desc="Otros costos de mano de obra directa" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="606" NumCta="6060000" Desc="Facilidades administrativas fiscales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="606.01" NumCta="6060100" Desc="Facilidades administrativas fiscales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="607" NumCta="6070000" Desc="Participación de los trabajadores en las utilidades" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="607.01" NumCta="6070100" Desc="Participación de los trabajadores en las utilidades" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="608" NumCta="6080000" Desc="Participación en resultados de subsidiarias" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="608.01" NumCta="6080100" Desc="Participación en resultados de subsidiarias" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="609" NumCta="6090000" Desc="Participación en resultados de asociadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="609.01" NumCta="6090100" Desc="Participación en resultados de asociadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="610" NumCta="6100000" Desc="Participación de los trabajadores en las utilidades diferida" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="610.01" NumCta="6100100" Desc="Participación de los trabajadores en las utilidades diferida" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="611" NumCta="6110000" Desc="Impuesto Sobre la renta" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="611.01" NumCta="6110100" Desc="Impuesto Sobre la renta" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="611" NumCta="6110200" Desc="Impuesto Sobre la renta por remanente distribuible" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="612" NumCta="6120000" Desc="Gastos no deducibles para CUFIN" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="612.01" NumCta="6120100" Desc="Gastos no deducibles para CUFIN" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613" NumCta="6130000" Desc="Depreciación contable" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.01" NumCta="6130100" Desc="Depreciación de edificios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.02" NumCta="6130200" Desc="Depreciación de maquinaria y equipo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.03" NumCta="6130300" Desc="Depreciación de automóviles, autobuses, camiones de carga, tractocamiones, montacargas y remolques" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.04" NumCta="6130400" Desc="Depreciación de mobiliario y equipo de oficina" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.05" NumCta="6130500" Desc="Depreciación de equipo de cómputo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.06" NumCta="6130600" Desc="Depreciación de equipo de comunicación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.07" NumCta="6130700" Desc="Depreciación de activos biológicos, vegetales y semovientes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.08" NumCta="6130800" Desc="Depreciación de otros activos fijos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.09" NumCta="6130900" Desc="Depreciación de ferrocarriles" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.10" NumCta="6131000" Desc="Depreciación de embarcaciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.11" NumCta="6131100" Desc="Depreciación de aviones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.12" NumCta="6131200" Desc="Depreciación de troqueles, moldes, matrices y herramental" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.13" NumCta="6131300" Desc="Depreciación de equipo de comunicaciones telefónicas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.14" NumCta="6131400" Desc="Depreciación de equipo de comunicación satelital" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.15" NumCta="6131500" Desc="Depreciación de equipo de adaptaciones para personas con capacidades diferentes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.16" NumCta="6131600" Desc="Depreciación de maquinaria y equipo de generación de energía de fuentes renovables o de sistemas de cogeneración de electricidad eficiente" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.17" NumCta="6131700" Desc="Depreciación de adaptaciones y mejoras" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="100" NumCta="6131800" Desc="Depreciación de otra maquinaria y equipo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.18" NumCta="6131801" Desc="Depreciación de otra maquinaria y equipo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.18" NumCta="6131802" Desc="Depreciación de otra maquinaria y equipo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613" NumCta="6131900" Desc="Depreciación de Derechos de uso de Activos Arrendados" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.01" NumCta="6131901" Desc="Depreciación acumulada de Edificios (D5)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.02" NumCta="6131902" Desc="Depreciacion acumulada de Maquinaria y equipo (D5)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.03" NumCta="6131903" Desc="Depreciacion acumulada de Automóviles, autobuses, camiones de carga, tractocamiones, montacargas y remolques (D5)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.04" NumCta="6131904" Desc="Depreciacion acumulada de Mobiliario y equipo de oficina (D5)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.05" NumCta="6131905" Desc="Depreciacion acumulada de Equipo de cómputo (D5)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="613.06" NumCta="6131906" Desc="Depreciacion acumulada de Equipo de comunicación (D5)" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="614" NumCta="6140000" Desc="Amortización contable" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="614.01" NumCta="6140100" Desc="Amortización de gastos diferidos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="614.02" NumCta="6140200" Desc="Amortización de gastos pre operativos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="614.03" NumCta="6140300" Desc="Amortización de regalías, asistencia técnica y otros gastos diferidos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="614.04" NumCta="6140400" Desc="Amortización de activos intangibles" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="614.05" NumCta="6140500" Desc="Amortización de gastos de organización" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="614.06" NumCta="6140600" Desc="Amortización de investigación y desarrollo de mercado" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="614.07" NumCta="6140700" Desc="Amortización de marcas y patentes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="614.08" NumCta="6140800" Desc="Amortización de crédito mercantil" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="614.09" NumCta="6140900" Desc="Amortización de gastos de instalación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="614.10" NumCta="6141000" Desc="Amortización de otros activos diferidos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="100" NumCta="7000000" Desc="Resultado integral de financiamiento" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="701" NumCta="7010000" Desc="Gastos financieros" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="701" NumCta="7010100" Desc="Pérdida cambiaria" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="701.01" NumCta="7010101" Desc="Pérdida cambiaria Realizada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="701.01" NumCta="7010102" Desc="Pérdida cambiaria No Realizada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="701.02" NumCta="7010200" Desc="Pérdida cambiaria nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="701.03" NumCta="7010300" Desc="Pérdida cambiaria extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="701.04" NumCta="7010400" Desc="Intereses a cargo bancario nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="701.05" NumCta="7010500" Desc="Intereses a cargo bancario extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="701.06" NumCta="7010600" Desc="Intereses a cargo de personas físicas nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="701.07" NumCta="7010700" Desc="Intereses a cargo de personas físicas extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="701.08" NumCta="7010800" Desc="Intereses a cargo de personas morales nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="701.09" NumCta="7010900" Desc="Intereses a cargo de personas morales extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="701.10" NumCta="7011000" Desc="Comisiones bancarias" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="701.11" NumCta="7011100" Desc="Otros gastos financieros" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="701" NumCta="7015000" Desc="Intereses Derechos de Uso de Activos Arrendados" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="701.06" NumCta="7015100" Desc="Intereses por derecho de Uso (D5) cargo de personas físicas nacionales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="701.08" NumCta="7015200" Desc="Intereses por derecho de Uso (D5) cargo de personas morales nacionales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="702" NumCta="7020000" Desc="Productos financieros" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="702" NumCta="7020100" Desc="Utilidad cambiaria" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="702.01" NumCta="7020101" Desc="Utilidad Cambiaria Realizada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="702.01" NumCta="7020102" Desc="Utilidad Cambiaria No Realizada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="702.02" NumCta="7020200" Desc="Utilidad cambiaria nacional parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="702.03" NumCta="7020300" Desc="Utilidad cambiaria extranjero parte relacionada" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="702.04" NumCta="7020400" Desc="Intereses a favor bancarios nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="702.05" NumCta="7020500" Desc="Intereses a favor bancarios extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="702.06" NumCta="7020600" Desc="Intereses a favor de personas físicas nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="702.07" NumCta="7020700" Desc="Intereses a favor de personas físicas extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="702.08" NumCta="7020800" Desc="Intereses a favor de personas morales nacional" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="702.09" NumCta="7020900" Desc="Intereses a favor de personas morales extranjero" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="702.10" NumCta="7021000" Desc="Otros productos financieros" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703" NumCta="7030000" Desc="Otros gastos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.01" NumCta="7030100" Desc="Pérdida en venta y/o baja de terrenos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.02" NumCta="7030200" Desc="Pérdida en venta y/o baja de edificios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.03" NumCta="7030300" Desc="Pérdida en venta y/o baja de maquinaria y equipo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.04" NumCta="7030400" Desc="Pérdida en venta y/o baja de automóviles, autobuses, camiones de carga, tractocamiones, montacargas y remolques" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.05" NumCta="7030500" Desc="Pérdida en venta y/o baja de mobiliario y equipo de oficina" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.06" NumCta="7030600" Desc="Pérdida en venta y/o baja de equipo de cómputo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.07" NumCta="7030700" Desc="Pérdida en venta y/o baja de equipo de comunicación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.08" NumCta="7030800" Desc="Pérdida en venta y/o baja de activos biológicos, vegetales y semovientes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.09" NumCta="7030900" Desc="Pérdida en venta y/o baja de otros activos fijos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.10" NumCta="7031000" Desc="Pérdida en venta y/o baja de ferrocarriles" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.11" NumCta="7031100" Desc="Pérdida en venta y/o baja de embarcaciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.12" NumCta="7031200" Desc="Pérdida en venta y/o baja de aviones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.13" NumCta="7031300" Desc="Pérdida en venta y/o baja de troqueles, moldes, matrices y herramental" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.14" NumCta="7031400" Desc="Pérdida en venta y/o baja de equipo de comunicaciones telefónicas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.15" NumCta="7031500" Desc="Pérdida en venta y/o baja de equipo de comunicación satelital" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.16" NumCta="7031600" Desc="Pérdida en venta y/o baja de equipo de adaptaciones para personas con capacidades diferentes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.17" NumCta="7031700" Desc="Pérdida en venta y/o baja de maquinaria y equipo de generación de energía de fuentes renovables o de sistemas de cogeneración de electricidad eficiente" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703" NumCta="7031800" Desc="Pérdida en venta y/o baja de otra maquinaria y equipo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.18" NumCta="7031801" Desc="Pérdida en venta y/o baja de otra maquinaria y equipo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.19" NumCta="7031900" Desc="Pérdida por enajenación de acciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.20" NumCta="7032000" Desc="Pérdida por enajenación de partes sociales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703" NumCta="7032100" Desc="Otros gastos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.21" NumCta="7032101" Desc="Otros gastos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.21" NumCta="7032102" Desc="Pérdida por revalorización de Activos Fijos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.21" NumCta="7032103" Desc="Costo Financiero de Obligaciones Laborales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="703.21" NumCta="7032104" Desc="Fondo Pasivo Laboral" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704" NumCta="7040000" Desc="Otros productos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.01" NumCta="7040100" Desc="Ganancia en venta y/o baja de terrenos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.02" NumCta="7040200" Desc="Ganancia en venta y/o baja de edificios" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.03" NumCta="7040300" Desc="Ganancia en venta y/o baja de maquinaria y equipo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.04" NumCta="7040400" Desc="Ganancia en venta y/o baja de automóviles, autobuses, camiones de carga, tractocamiones, montacargas y remolques" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.05" NumCta="7040500" Desc="Ganancia en venta y/o baja de mobiliario y equipo de oficina" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.06" NumCta="7040600" Desc="Ganancia en venta y/o baja de equipo de cómputo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.07" NumCta="7040700" Desc="Ganancia en venta y/o baja de equipo de comunicación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.08" NumCta="7040800" Desc="Ganancia en venta y/o baja de activos biológicos, vegetales y semovientes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.09" NumCta="7040900" Desc="Ganancia en venta y/o baja de otros activos fijos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.10" NumCta="7041000" Desc="Ganancia en venta y/o baja de ferrocarriles" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.11" NumCta="7041100" Desc="Ganancia en venta y/o baja de embarcaciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.12" NumCta="7041200" Desc="Ganancia en venta y/o baja de aviones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.13" NumCta="7041300" Desc="Ganancia en venta y/o baja de troqueles, moldes, matrices y herramental" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.14" NumCta="7041400" Desc="Ganancia en venta y/o baja de equipo de comunicaciones telefónicas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.15" NumCta="7041500" Desc="Ganancia en venta y/o baja de equipo de comunicación satelital" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.16" NumCta="7041600" Desc="Ganancia en venta y/o baja de equipo de adaptaciones para personas con capacidades diferentes" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.17" NumCta="7041700" Desc="Ganancia en venta de maquinaria y equipo de generación de energía de fuentes renovables o de sistemas de cogeneración de electricidad eficiente" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704" NumCta="7041800" Desc="Ganancia en venta y/o baja de otra maquinaria y equipo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.18" NumCta="7041801" Desc="Ganancia en venta y/o baja de otra maquinaria y equipo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.19" NumCta="7041900" Desc="Ganancia por enajenación de acciones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.20" NumCta="7042000" Desc="Ganancia por enajenación de partes sociales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.21" NumCta="7042100" Desc="Ingresos por estímulos fiscales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.22" NumCta="7042200" Desc="Ingresos por condonación de adeudo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704" NumCta="7042300" Desc="Otros productos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.23" NumCta="7042301" Desc="Otros productos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="704.23" NumCta="7042302" Desc="Ganacias por revalorizacion de Activos Fijos" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="800" NumCta="8000000" Desc="Cuentas de orden" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="801" NumCta="8010000" Desc="UFIN del ejercicio" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="801.01" NumCta="8010100" Desc="UFIN" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="801.02" NumCta="8010200" Desc="Contra cuenta UFIN" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="802" NumCta="8020000" Desc="CUFIN del ejercicio" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="802.01" NumCta="8020100" Desc="CUFIN" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="802.02" NumCta="8020200" Desc="Contra cuenta CUFIN" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="803" NumCta="8030000" Desc="CUFIN de ejercicios anteriores" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="803.01" NumCta="8030100" Desc="CUFIN de ejercicios anteriores" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="803.02" NumCta="8030200" Desc="Contra cuenta CUFIN de ejercicios anteriores" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="804" NumCta="8040000" Desc="CUFINRE del ejercicio" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="804.01" NumCta="8040100" Desc="CUFINRE" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="804.02" NumCta="8040200" Desc="Contra cuenta CUFINRE" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="805" NumCta="8050000" Desc="CUFINRE de ejercicios anteriores" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="805.01" NumCta="8050100" Desc="CUFINRE de ejercicios anteriores" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="805.02" NumCta="8050200" Desc="Contra cuenta CUFINRE de ejercicios anteriores" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="806" NumCta="8060000" Desc="CUCA del ejercicio" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="806.01" NumCta="8060100" Desc="CUCA" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="806.02" NumCta="8060200" Desc="Contra cuenta CUCA" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="807" NumCta="8070000" Desc="CUCA de ejercicios anteriores" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="807.01" NumCta="8070100" Desc="CUCA de ejercicios anteriores" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="807.02" NumCta="8070200" Desc="Contra cuenta CUCA de ejercicios anteriores" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="808" NumCta="8080000" Desc="Ajuste anual por inflación acumulable" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="808.01" NumCta="8080100" Desc="Ajuste anual por inflación acumulable" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="808.02" NumCta="8080200" Desc="Acumulación del ajuste anual inflacionario" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="809" NumCta="8090000" Desc="Ajuste anual por inflación deducible" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="809.01" NumCta="8090100" Desc="Ajuste anual por inflación deducible" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="809.02" NumCta="8090200" Desc="Deducción del ajuste anual inflacionario" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="810" NumCta="8100000" Desc="Deducción de inversión" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="810.01" NumCta="8100100" Desc="Deducción de inversión" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="810.02" NumCta="8100200" Desc="Contra cuenta deducción de inversiones" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="811" NumCta="8110000" Desc="Utilidad o pérdida fiscal en venta y/o baja de activo fijo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="811.01" NumCta="8110100" Desc="Utilidad o pérdida fiscal en venta y/o baja de activo fijo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="811.02" NumCta="8110200" Desc="Contra cuenta utilidad o pérdida fiscal en venta y/o baja de activo fijo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="812" NumCta="8120000" Desc="Utilidad o pérdida fiscal en venta acciones o partes sociales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="812.01" NumCta="8120100" Desc="Utilidad o pérdida fiscal en venta acciones o partes sociales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="812.02" NumCta="8120200" Desc="Contra cuenta utilidad o pérdida fiscal en venta acciones o partes sociales" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="813" NumCta="8130000" Desc="Pérdidas fiscales pendientes de amortizar actualizadas de ejercicios anteriores" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="813.01" NumCta="8130100" Desc="Pérdidas fiscales pendientes de amortizar actualizadas de ejercicios anteriores" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="813.02" NumCta="8130200" Desc="Actualización de pérdidas fiscales pendientes de amortizar de ejercicios anteriores" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="814" NumCta="8140000" Desc="Mercancías recibidas en consignación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="814.01" NumCta="8140100" Desc="Mercancías recibidas en consignación" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="814.02" NumCta="8140200" Desc="Consignación de mercancías recibidas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="815" NumCta="8150000" Desc="Crédito fiscal de IVA e IEPS por la importación de mercancías para empresas certificadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="815.01" NumCta="8150100" Desc="Crédito fiscal de IVA e IEPS por la importación de mercancías" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="815.02" NumCta="8150200" Desc="Importación de mercancías con aplicación de crédito fiscal de IVA e IEPS" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="816" NumCta="8160000" Desc="Crédito fiscal de IVA e IEPS por la importación de activos fijos para empresas certificadas" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="816.01" NumCta="8160100" Desc="Crédito fiscal de IVA e IEPS por la importación de activo fijo" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="816.02" NumCta="8160200" Desc="Importación de activo fijo con aplicación de crédito fiscal de IVA e IEPS" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="899" NumCta="8990000" Desc="Otras cuentas de orden" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="899.01" NumCta="8990100" Desc="Otras cuentas de orden" Nivel="1" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="899.02" NumCta="8990200" Desc="Contra cuenta otras cuentas de orden" Nivel="1" Natur="A"/>
+</catalogocuentas:Catalogo>

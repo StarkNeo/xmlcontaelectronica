@@ -10,23 +10,23 @@ def validate_xml(xml_path, xsd_path):
         with open(xsd_path, 'rb') as xsd_file:
             #schema_root = etree.XML(xsd_file.read())
             #schema = etree.XMLSchema(schema_root)
-            schema_doc = etree.parse(xsd_file)
+            schema_doc = etree.XML(xsd_file.read())
             schema = etree.XMLSchema(schema_doc)
         # load the XML file
         with open(xml_path, 'rb') as xml_file:
             xml_doc = etree.parse(xml_file)
             
         # Validation
-        if schema.validate(xml_doc):
-            return "XML valido"
-        else:
-            error = schema.error_log.last_error
-            return f"XML invalido: {error.message} (linea {error.line})"
+        #if schema.validate(xml_doc):
+         #   return "XML valido"
+        #else:
+         #   error = schema.error_log.last_error
+          #  return f"XML invalido: {error.message} (linea {error.line})"
         
-        #schema.assertValid(xml_doc)
-        #return " XML valido"    
-    #except etree.DocumentInvalid as e:
-     #   return f"XML invalido: {str(e)}"
+        schema.assertValid(xml_doc)
+        return " XML valido"    
+    except etree.DocumentInvalid as e:
+        return f"XML invalido: {str(e)}"
     except Exception as e:
         return f"Error al procesar: {str(e)}"
        
