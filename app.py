@@ -22,9 +22,13 @@ app.config["UPLOAD_FOLDER"] = os.path.join(BASE_PATH, "uploads")
 app.config["XML_FOLDER"] = os.path.join(BASE_PATH, "xml")
 app.config["XSD_FOLDER"] = os.path.join(BASE_PATH, "xsd")
 
+# Create folders
+for folder in [app.config["UPLOAD_FOLDER"], app.config["XML_FOLDER"], app.config["XSD_FOLDER"]]:
+    os.makedirs(folder, exist_ok=True)
+
+
+
 # index route main view
-
-
 @app.route("/")
 def index():
     return render_template("index.html")
