@@ -37,9 +37,14 @@ def xmlValidator():
 
     if form.validate_on_submit():
         xml = form.xml_file.data
+        
         xml_path = os.path.join(app.config["XML_FOLDER"], secure_filename(xml.filename))
         #xsd_path = os.path.join(app.root_path, "xsd", "BalanzaComprobacion_1_3.xsd")
         xml.save(xml_path)
+        
+        file_type = xml.filename.split(".")[0][-1]
+        if file_type == "T":
+            xsd_path = os.path.join(app.config["XSD_FOLDER"],"CatalogoCuentas_1_3.xsd")
         xsd_path = os.path.join(app.config["XSD_FOLDER"], "BalanzaComprobacion_1_3.xsd")
         message = validate_xml(xml_path, xsd_path)
         result = message
@@ -108,10 +113,8 @@ def download_xml(filename):
     return send_file(file_path, mimetype="application/xml", as_attachment=True)
 
 
-"""
 if __name__ == "__main__":
     os.makedirs(os.path.join(BASE_PATH, "uploads"), exist_ok=True)
     os.makedirs(os.path.join(BASE_PATH, "xml"), exist_ok=True)
     os.makedirs(os.path.join(BASE_PATH, "xsd"), exist_ok=True)
     app.run(debug=True)
-"""
