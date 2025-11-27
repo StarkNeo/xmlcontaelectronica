@@ -2,14 +2,14 @@ import os
 import sys
 from flask import Flask, render_template, redirect, url_for,send_file, request
 from werkzeug.utils import secure_filename
-from utils.helpers import (
+from helpers import (
     validate_xml,
     extract_excel_balanza,
     extract_excel_catalogo,
     generate_catalogo_xml,
     generate_balanza_xml,
 )
-from utils.forms import UploadForm, XMLForm
+from forms import UploadForm, XMLForm
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -78,7 +78,7 @@ def xmlGenerator():
             # Extract data from excel
             catalogo = extract_excel_catalogo(excel_path)
             # Transform data to xml file and save it to XML folder
-            filename = f"xml/{RFC}{year}{month}CT.xml"
+            filename = f"{RFC}{year}{month}CT.xml"
             xml_cat_path = os.path.join(app.config["XML_FOLDER"],filename)
             generate_catalogo_xml(catalogo, xml_cat_path, RFC, month, year)
             return render_template("confirmation.html", filename = filename)
@@ -89,13 +89,13 @@ def xmlGenerator():
             balanza = extract_excel_balanza(excel_path)
             instance = form.instance_type.data
             if instance == "N":
-                filename = f"xml/{RFC}{year}{month}BN.xml"
+                filename = f"{RFC}{year}{month}BN.xml"
                 xml_bal_path = os.path.join(app.config["XML_FOLDER"],filename)
                 generate_balanza_xml(
                     balanza, xml_bal_path, RFC, month, year, instance
                 )                
             else:
-                filename = f"xml/{RFC}{year}{month}BC.xml"
+                filename = f"{RFC}{year}{month}BC.xml"
                 xml_bal_path = os.path.join(app.config["XML_FOLDER"],filename)
                 mod_date = str(form.mod_date.data)
                 generate_balanza_xml(

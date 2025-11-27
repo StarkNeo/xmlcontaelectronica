@@ -145,7 +145,7 @@ def generate_catalogo_xml(datos_catalogo, ruta_salida, rfc, month, year, metadat
     tree.write(ruta_salida, encoding="UTF-8", xml_declaration=True, pretty_print=True)
 
 
-def generate_balanza_xml(datos_balanza, ruta_salida, rfc, month, year, instance, mod_date = None, certificado_b64 = None, numero_serie = None, private_key = None, metadata = metadata_balanza):
+def generate_balanza_xml(datos_balanza, ruta_salida, rfc, month, year, instance, mod_date = None, metadata = metadata_balanza):
     ns = metadata["xmlns:BCE"]
     nsmap = {
         "BCE": ns,
@@ -184,7 +184,6 @@ def generate_balanza_xml(datos_balanza, ruta_salida, rfc, month, year, instance,
 
     
     tree = etree.ElementTree(root)
-    
     tree.write(ruta_salida, encoding="UTF-8", xml_declaration=True, pretty_print=True)
    
 
