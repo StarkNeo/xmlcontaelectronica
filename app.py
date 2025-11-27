@@ -15,7 +15,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
-BASE_PATH = os.path.dirname(os.path.abspath(__file__))
+#BASE_PATH = os.path.dirname(os.path.abspath(__file__))
+BASE_PATH = app.root_path
 app.config["SECRET_KEY"] = os.getenv("SECRET_KEY")
 app.config["UPLOAD_FOLDER"] = os.path.join(BASE_PATH, "uploads")
 app.config["XML_FOLDER"] = os.path.join(BASE_PATH, "xml")
