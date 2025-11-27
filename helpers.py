@@ -4,7 +4,7 @@ from flask import send_file
 import pandas as pd
 from lxml import etree
 
-def validate_xml(xml_path, xsd_path):
+"""def validate_xml(xml_path, xsd_path):
     try:
         # Load the XSD schema
         print("Este XSD estoy usando: ", xsd_path)
@@ -31,6 +31,34 @@ def validate_xml(xml_path, xsd_path):
         return f"XML invalido: {str(e)}"
     except Exception as e:
         return f"Error al procesar: {str(e)}"
+"""
+def validate_xml(xml_path, xsd_path):
+    try:
+        # Parser that allows external imports
+        parser = etree.XMLParser(load_dtd=True, no_network=False)
+
+        # Load the main XSD (e.g. CatalogoCuentas_1_3.xsd)
+        with open(xsd_path, 'rb') as xsd_file:
+            schema_doc = etree.parse(xsd_file, parser)
+            schema = etree.XMLSchema(schema_doc)
+
+        # Load the XML to validate
+        with open(xml_path, 'rb') as xml_file:
+            xml_doc = etree.parse(xml_file, parser)
+
+        # Validate
+        if schema.validate(xml_doc):
+            return "XML válido"
+        else:
+            error = schema.error_log.last_error
+            return f"XML inválido: {error.message} (línea {error.line})"
+
+    except etree.DocumentInvalid as e:
+        return f"XML inválido: {str(e)}"
+    except Exception as e:
+        return f"Error al procesar {xml_path}: {str(e)}"
+
+
        
 def extract_excel_balanza(excel_path,sheet_balanza="BZA"):
     df_balanza = pd.read_excel(excel_path, sheet_name=sheet_balanza, dtype=str)
